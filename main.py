@@ -40,6 +40,7 @@ def check_highstreak(my_streak_score, comp_streak_score):
 def play(choice):
     cchoices = ("r", "p", "s")
     computer_choice = random.choice(cchoices)
+    print(computer_choice)
     my_streak_score = 0
     comp_streak_score = 0
 
